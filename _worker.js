@@ -1,7 +1,7 @@
 export default {
     async fetch(request, env) {
         const url = new URL(request.url);
-        if (url.pathname.startsWith('/api/hello_world')) {
+        if (url.pathname.startsWith('/api/')) {
             // TODO: Add your custom /api/* logic here.
             return new Response('Hi how are you?');
         }
