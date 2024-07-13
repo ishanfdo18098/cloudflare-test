@@ -1,4 +1,4 @@
 export function onRequest(context) {
-    console.log("Function called")
+    console.log("hi how are you?")
     return new Response("Hello, world!")
 }
